@@ -1,0 +1,25 @@
+nav {
+    background: black;
+}
+
+.ul-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.Link-head {
+    float: right;
+    color: white;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Link-head:hover {
+    color: darkcyan;
+}
+.li-head {
+    margin:20px;
+    color: white;
+}
+

@@ -1,0 +1,66 @@
+footer {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:  78px;
+}
+
+.ul-head {
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.whatsapp {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.whatsapp:hover {
+    color: darkcyan;
+}
+
+.instagram {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.instagram:hover {
+    color: darkcyan;
+}
+
+.facebook {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.facebook:hover {
+    color: darkcyan;
+}
+
+.Link-foot {
+    float: right;
+    color: white;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Link-foot:hover {
+    color: darkcyan;
+}
+.li-foot {
+    margin: 25px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    margin-top: 45px;
+
+}
