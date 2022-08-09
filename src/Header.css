@@ -1,13 +1,19 @@
+.navbar > :first-child {
+    flex-basis: 35%;
+}
+
 nav {
     background: black;
     height: auto;
     display: flex;
     flex-direction: row;
+    font-family: 'Technopollas', sans-serif;
 }
 
-nav > :nth-child(1){
+nav > :nth-child(2){
     margin-right: auto;
 }
+
 
 .ul-head {
     display: flex;
@@ -18,7 +24,7 @@ nav > :nth-child(1){
 .logo img {
     width: 150px;
     height: 100px;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 20px;
     justify-content: right;
 }
@@ -27,13 +33,23 @@ nav > :nth-child(1){
     justify-content: right;
     font-size: 16px;
     text-align: center;
+    margin-right: 10px;
 }
 
 .Link-head:hover {
-    color: darkcyan;
+    color: #BD8635;
 }
 .li-head {
     margin:20px;
     color: white;
 }
 
+.li-head:hover {
+    color: #BD8635;
+}
+
+.navLogo img {
+    width: 300px;
+    height: 70px;
+    margin-top: 10px;
+}
