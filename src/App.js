@@ -1,15 +1,22 @@
-import './App.css';
+import './styles/App.css';
 import React from 'react'
 import { NavBar, Footer} from './partials';
-import { ImageSlider } from "./components/ImageSlider";
-import {SliderData} from "./components/SliderData";
+import { Home, Gallery, Contact, About} from "./pages";
+import { Routes, Route} from "react-router-dom";
 
 function App() {
     return (
 
     <div>
         <NavBar/>
-        <ImageSlider slides={SliderData} />;
+
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="Gallery" element={<Gallery />} />
+            <Route path="Contact" element={<Contact />} />
+            <Route path="About" element={<About />} />
+        </Routes>
+
         <Footer />
     </div>
     )

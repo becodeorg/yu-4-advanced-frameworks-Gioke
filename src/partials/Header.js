@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/Logo2.jpg';
 import NavbarLogo from '../images/navbarLogo.jpg';
-import '../Header.css';
+import '../styles/Header.css';
 
 export const NavBar = () => {
     return (
@@ -14,10 +14,10 @@ export const NavBar = () => {
                 <img src={NavbarLogo} alt="logo2"/>
             </div>
             <ul class="ul-head">
-                <li class="li-head"><Link class="Link-head" to="#">Home</Link></li>
-                <li class="li-head"><Link class="Link-head" to="#">Gallery</Link></li>
-                <li class="li-head"><Link class="Link-head" to="#">About</Link></li>
-                <li class="li-head"><Link class="Link-head" to="#">Contact</Link></li>
+                <li class="li-head"><Link class="Link-head" to="/">Home</Link></li>
+                <li class="li-head"><Link class="Link-head" to="/Gallery">Gallery</Link></li>
+                <li class="li-head"><Link class="Link-head" to="/About">About</Link></li>
+                <li class="li-head"><Link class="Link-head" to="/Contact">Contact</Link></li>
             </ul>
         </nav>
     )

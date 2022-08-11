@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: VeloFont;
-  src: url(/src/images/Technopollas.otf);
+  src: url(/src/images/fonts/Technopollas.otf);
 }
 
 *{
