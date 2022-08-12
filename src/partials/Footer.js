@@ -10,7 +10,7 @@ export const Footer = () => {
                 <br />
                 <p className="text-white flex col-start-2">Problemen met je fiets of op zoek naar iets nieuws? <br/> Kom even langs ik help je graag verder:</p>
                 <div className="text-white mt-4 flex">
-                    <FaWhatsapp class="whatsapp mb-2 text-2xl mr-2" /> <FaInstagram class="instagram mb-2 text-2xl ml-2 mr-2"/> <FaFacebookF class="facebook mb-4 text-2xl ml-2"/>
+                    <FaWhatsapp class="whatsapp mb-2 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer" /> <FaInstagram class="instagram mb-2 text-2xl ml-2 mr-2 hover:text-amber-500 hover:cursor-pointer"/> <FaFacebookF class="facebook mb-4 text-2xl ml-2 hover:text-amber-500 hover:cursor-pointer"/>
                 </div>
             </div>
             <div className="mb-10">
