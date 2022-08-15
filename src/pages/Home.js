@@ -1,12 +1,10 @@
-import {ImageSlider} from "../components/ImageSlider";
-import {SliderData} from "../components/SliderData";
 import React from "react";
+import Image from '../images/Main1.jpg';
 
 export const Home = () => {
+
     return (
-        <div>
-        <ImageSlider slides={SliderData} />
-        </div>
+        <div className="bg-[url('../images/Main1.jpg')]"></div>
     )
 }
 

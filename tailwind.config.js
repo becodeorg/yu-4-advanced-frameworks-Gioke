@@ -14,7 +14,13 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+        'Main-1': "url('../images/Main1.jpg')",
+      }
+    },
   },
   plugins: [],
 }

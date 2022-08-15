@@ -16,7 +16,7 @@ export const NavBar = () => {
             </div>
             <ul className="text-white mt-4 flex ">
                 <li className="text-white mr-4 mt-4 text-xl hover:underline decoration-amber-500 underline-offset-8"><Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
-                <li className="text-white mr-4 mt-4 text-xl hover:underline decoration-amber-500 underline-offset-8"><Link to="/Gallery" spy={true} smooth={true} offset={50} duration={500}>Gallery</Link></li>
+                <li className="text-white mr-4 mt-4 text-xl hover:underline decoration-amber-500 underline-offset-8"><Link to="/Info" spy={true} smooth={true} offset={50} duration={500}>Info</Link></li>
                 <li className="text-white mr-4 mt-4 text-xl hover:underline decoration-amber-500 underline-offset-8"><Link to="/About" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
                 <li className="text-white mr-4 mt-4 text-xl hover:underline decoration-amber-500 underline-offset-8"><Link to="/Contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
             </ul>

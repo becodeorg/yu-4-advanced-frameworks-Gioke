@@ -1,12 +1,12 @@
 import { Home } from './Home';
-import { Gallery} from './Gallery';
+import { Info} from './Info';
 import { Contact } from './Contact';
 import { About } from './About';
 
 
 export {
     Home,
-    Gallery,
+    Info,
     Contact,
     About
 }
