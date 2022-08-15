@@ -25,14 +25,20 @@ export const Footer = () => {
                 </ul>
             </div>
             <div className="">
-                <h4 className="text-white font-bold underline flex col-start-1 mt-4">Mijn troeven</h4>
+                <h4 className="text-white font-bold underline flex col-start-1 mt-4">Openingsuren</h4>
                 <br />
                 <ul>
-                    <li><p className="text-white flex col-start-3">*snelle service</p></li>
-                    <li><p className="text-white flex col-start-4">*kwaliteitsfietsen</p></li>
+                    <li><p className="text-white flex col-start-3">Maandag: 09.00h-12.00h / 13.00h-18.00h</p></li>
+                    <li><p className="text-white flex col-start-3">Dinsdag: Op afspraak</p></li>
+                    <li><p className="text-white flex col-start-3">Woensdag: Op afspraak</p></li>
+                    <li><p className="text-white flex col-start-3">Donderdag: Op afspraak</p></li>
+                    <li><p className="text-white flex col-start-3">Vrijdag: Op afspraak</p></li>
+                    <li><p className="text-white flex col-start-3">Zaterdag: 09.00h-12.00h / 13.30h-18.00h</p></li>
+                    <li><p className="text-white flex col-start-3">Zon- en feestdagen: Gesloten</p></li>
+
                 </ul>
                 <div className="flex col-end">
-                    <p className="text-gray-300 text-sm mt-20 mr-12">Copyright © Vélo-W  2022</p>
+                    <p className="text-gray-300 text-sm mt-10 mr-12">Copyright © Vélo-W  2022</p>
                 </div>
             </div>
 
@@ -42,10 +48,3 @@ export const Footer = () => {
 
 
 
-
-// <ul className="ul-head">
-//     <li className="li-foot"><Link class="Link-foot" to="#">Home</Link></li>
-//     <li className="li-foot"><Link class="Link-foot" to="#">Gallery</Link></li>
-//     <li className="li-foot"><Link class="Link-foot" to="#">About</Link></li>
-//     <li className="li-foot"><Link class="Link-foot" to="#">Contact</Link></li>
-// </ul>

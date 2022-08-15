@@ -4,7 +4,9 @@ import React from "react";
 
 export const Home = () => {
     return (
+        <div>
         <ImageSlider slides={SliderData} />
+        </div>
     )
 }
 

@@ -13,7 +13,7 @@
     padding:0;
     box-sizing: border-box;
 }
- /*h1 {*/
- /*   font-family: 'VeloFont', sans-serif;*/
- /*   color: #BD8635;*/
- /*}*/
+ h4 {
+    font-family: 'VeloFont', sans-serif;
+    color: #BD8635;
+ }

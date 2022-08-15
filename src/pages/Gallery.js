@@ -1,8 +1,10 @@
 import React from "react";
+import Image from '../images/Main1.jpg';
 
 export const Gallery = () => {
+
     return (
-        <h1>Hello Gallery</h1>
+        <div style={{backgroundImage: `url({Image})`}}></div>
     )
 }
 
