@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa';
-import '../styles/Footer.css';
 export const Footer = () => {
     return(
         <footer className="bg-black flex justify-evenly h-auto">
