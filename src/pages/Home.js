@@ -6,7 +6,7 @@ export const Home = () => {
     return (
         // <div className="bg-[url('../images/Wouter.jpg')]"></div>
         <div>
-            <img className="h-screen w-screen sticky top-0" src={ Wouter } alt="foto Wouter"/>
+            <img className="h-screen w-screen" src={ Wouter } alt="foto Wouter"/>
         </div>
     )
 }
