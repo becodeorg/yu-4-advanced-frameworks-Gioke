@@ -24,17 +24,17 @@ export const About = () => {
                 <h1 className="text-xl font-bold underline p-2">Partners:</h1>
             </div>
             <div className="flex justify-evenly">
-                <img className="scale-50" src={ Morgan } alt="logo morgan blue"/>
-                <img className="scale-50" src={ Deschee } alt="Logo descheemaeker"/>
-                <img className="scale-50" src={ Vdbparts } alt="Logo VdbParts"/>
-                <img className="scale-50" src={ Shimano } alt="Logo Shimano"/>
+                <a href="https://www.morganblue.net/" target="_blank"><img className="scale-50" src={ Morgan } alt="logo morgan blue"/></a>
+                <a href="https://www.descheemaeker.be/nl" target="_blank"><img className="scale-50" src={ Deschee } alt="Logo descheemaeker"/></a>
+                <a href="http://www.vdbparts.be/" target="_blank"> <img className="scale-50" src={ Vdbparts } alt="Logo VdbParts"/></a>
+                <a href="https://bike.shimano.com/nl-NL/home.html" target="_blank"><img className="scale-50" src={ Shimano } alt="Logo Shimano"/></a>
             </div>
             <div className="flex justify-evenly">
-                <img className="w-60 h-28" src={ Minerva } alt="Logo Minerva"/>
-                <img className="scale-50" src={ Dewo } alt=" Logo Dewo-Europe"/>
-                <img className="scale-50" src={ Codagex } alt="Logo Codagex"/>
-                <img className="scale-50" src={ Verwimp } alt="Logo Verwimp"/>
-                <img className="scale-50" src={ Cema } alt="Logo Cema Bearing"/>
+                <a href="https://minerva-cycling.be/nl/" target="_blank"><img className="w-60 h-28" src={ Minerva } alt="Logo Minerva"/></a>
+                <a href="https://www.dewo-europe.com/" target="_blank"><img className="scale-50" src={ Dewo } alt=" Logo Dewo-Europe"/></a>
+                <a href="https://codagex.be/websolutions/default.aspx" target="_blank"><img className="scale-50" src={ Codagex } alt="Logo Codagex"/></a>
+                <a href="https://www.verwimp.nl/nl" target="_blank"><img className="scale-50" src={ Verwimp } alt="Logo Verwimp"/></a>
+                <a href="https://www.cemabearing.be/index.php?route=common/home" target="_blank"><img className="scale-50" src={ Cema } alt="Logo Cema Bearing"/></a>
             </div>
         </div>
 
