@@ -4,8 +4,16 @@ import Visit from '../images/Vélo-W visitekaartje.jpg';
 
 export const Contact = () => {
     return (
-        <div className="h-full flex justify-center">
-            <img src={Visit} alt="visite kaartje"/>
-        </div>
+        <>
+            <h1 className="font-extrabold text-3xl flex justify-center underline decoration-amber-500">Contact Me:</h1>
+
+            <form className="h-96 grid grid-cols-3 gap-4 content-center">
+                <input placeholder="Naam" className="border-solid border-2 border-gray-400 h-8"></input>
+                <input placeholder="Telefoon" className="border-solid border-2 border-gray-400"></input>
+                <input placeholder="E-mail" className="border-solid border-2 border-gray-400"></input>
+                <textarea placeholder="Text" className="border-solid border-2 border-gray-400 col-start-2 "></textarea>
+                <button className="border-solid border-2 border-gray-400 col-start-2">Send</button>
+            </form>
+        </>
     )
 }

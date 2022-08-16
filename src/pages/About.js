@@ -4,26 +4,29 @@ import { Morgan, Deschee, Vdbparts, Shimano, Minerva, Dewo, Codagex, Verwimp, Ce
 export const About = () => {
     return (
         <div className="">
-        <div><h1 className="text-xl font-bold text-2xl underline flex justify-center mt-3">About Vélo-W:</h1>
+        <div><h1 className="text-xl font-bold text-2xl underline decoration-amber-500 flex justify-center mt-3">About Vélo-W:</h1>
             <br/>
-            <p className="p-2">Hey.
+            <p className="p-2">Hey, <br/>
                 <br/>
-                Al van jongs af aan was ik gebeten door het fietsen. Op latere leeftijd werd die microbe op amateurgebied een tijdje competitief in het wegwielrennen, cyclocross en mountenbiken. Naast het rijden zelf moet er natuurlijk ook aan de fiets gewerkt worden. Aldoende leert men, vooral met het eigen materiaal en de nodige interesse.
-                Met de jaren heb ik me verdiept in de techniek van de fietsen. Alsook zijn we nog steeds bezig met opleidingen te volgen. Er is veel veranderd in de fietswereld en dit zal nog blijven evolueren.
-                In combinatie met een vaste job als opbouwer/carrossier van bedrijfswagens hebben we beslist om een onderneming op te starten in het herstellen en verkopen van fietsen.
-                Heeft jou fiets een onderhoud nodig of een herstelling? Aarzel dan niet om ons te contacteren of kom even langs.
-                Wij herstellen alle fietsen. Onze werkplaats is ook voorziend voor mindervalide fietsen en ook voor bakfietsen.
+                Al van jongs af aan was ik gebeten door het fietsen. Op latere leeftijd werd die microbe op amateurgebied een tijdje competitief in het wegwielrennen, cyclocross en mountenbiken. <br/>  Naast het rijden zelf moet er natuurlijk ook aan de fiets gewerkt worden. Aldoende leert men, vooral met het eigen materiaal en de nodige interesse.
+                <br/>
+                Met de jaren heb ik me verdiept in de techniek van de fietsen. Alsook zijn we nog steeds bezig met opleidingen te volgen. Er is veel veranderd in de fietswereld en dit zal nog blijven evolueren. <br/>
+                In combinatie met een vaste job als opbouwer/carrossier van bedrijfswagens hebben we beslist om een onderneming op te starten in het herstellen en verkopen van fietsen. <br/>
+                Heeft jou fiets een onderhoud nodig of een herstelling? Aarzel dan niet om ons te contacteren of kom even langs wij herstellen alle fietsen. <br/>
+                <br/>
+                Onze werkplaats is ook voorziend voor mindervalide fietsen en ook voor bakfietsen. <br/>
                 Of bent u op zoek naar een nieuwe kinderfiets, stadsfiets, Ebike of mtb.
-                Alsook 2de hands fietsen kan je bij ons soms vinden.
-                We helpen u graag verder.
+                Alsook 2de hands fietsen kan je bij ons soms vinden. <br/>
+                We helpen u graag verder. <br/>
+                <br/>
 
                 Grts Wouter </p>
         </div>
             <br/>
             <div>
-                <h1 className="text-xl font-bold underline p-2">Partners:</h1>
+                <h1 className="text-xl font-bold underline decoration-amber-500 p-2">Partners:</h1>
             </div>
-            <div className="grid grid-cols-3 gap-2 md:grid-cols-1">
+            <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 content-center">
                 <a href="https://www.morganblue.net/" target="_blank"><img className="scale-50" src={ Morgan } alt="logo morgan blue"/></a>
                 <a href="https://www.descheemaeker.be/nl" target="_blank"><img className="scale-50" src={ Deschee } alt="Logo descheemaeker"/></a>
                 <a href="http://www.vdbparts.be/" target="_blank"> <img className="scale-50" src={ Vdbparts } alt="Logo VdbParts"/></a>
@@ -34,9 +37,7 @@ export const About = () => {
                 <a href="https://www.verwimp.nl/nl" target="_blank"><img className="scale-90" src={ Verwimp } alt="Logo Verwimp"/></a>
                 <a href="https://www.cemabearing.be/index.php?route=common/home" target="_blank"><img className="scale-50" src={ Cema } alt="Logo Cema Bearing"/></a>
             </div>
-            {/*<div className="flex flex-wrap">*/}
 
-            {/*</div>*/}
         </div>
 
     )
